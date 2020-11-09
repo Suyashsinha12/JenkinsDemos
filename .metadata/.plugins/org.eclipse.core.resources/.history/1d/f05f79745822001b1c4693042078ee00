@@ -8,7 +8,7 @@ import com.git.model.User;
 @RestController
 public class WebController {
 
-	@GetMapping("/hi")
+	@GetMapping("/hello")
 	public String sayHello() {
 		
 		return "Hello world";
